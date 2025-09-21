@@ -1,0 +1,35 @@
+{
+  "name": "bs-getenv",
+  "version": "0.4.0",
+  "description": "ReasonML/BuckleScript PPX for embedding env variables",
+  "author": "A. Hdez <trefoil_chilled_7k@icloud.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nullvec/bs-getenv.git"
+  },
+  "scripts": {
+    "start": "bsb -clean-world -make-world -w",
+    "build": "bsb -clean-world -make-world",
+    "test": "sh ./test/runtests.sh"
+  },
+  "files": [
+    "bin",
+    "bsconfig.json",
+    "postinstall.js"
+  ],
+  "peerDependencies": {
+    "bs-platform": "^7.0.0"
+  },
+  "devDependencies": {
+    "bs-platform": "7.0.1"
+  },
+  "keywords": [
+    "env",
+    "getenv",
+    "reason",
+    "reasonml",
+    "ocaml",
+    "bucklescript"
+  ]
+}
